@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ticstyle.css">
+</head>
+<body>
+    <script src="tac.js"></script>
+    <div class="heading">
+        <h1>Tic Tac Toe </h1>
+    </div>
+    <div id="main">
+        <table>
+            <tr>
+               <button id="a1" onclick="game(this.id)" value=""></button>
+                <button id="a2" onclick="game(this.id)"value=""></button>
+                <button id="a3" onclick="game(this.id)"value=""></button>
+            </tr><br><br>
+            <tr>
+                <button id="b1" onclick="game(this.id)"value=""></button>
+                <button id="b2" onclick="game(this.id)"value=""></button>
+                <button id="b3" onclick="game(this.id)"value=""></button>
+            </tr><br><br>
+            <tr>
+                <button id="c1" onclick="game(this.id)"value=""></button>
+                <button id="c2" onclick="game(this.id)"value=""></button>
+                <button id="c3" onclick="game(this.id)"value=""></button>
+            </tr>
+            
+        </table>
+        <button id ="reset" onclick="reset()">Reset </button>
+        <h1 id="win"> </h1>
+
+        
+</body>
+</html>
